@@ -4,12 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Daily Planner</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/2c66a12d94.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- header -->
-    <!-- title, description, date -->
+      <div class="" id="header">
+        <!-- title, description, date -->
+          <h1 class="header1" id="dailyPlanner">Daily Planner</h1>
+          <h2 class="header2" id="todaysDate"></h2>
+          <h2 class="header2" id="currentTime"></h2>
+        </div>
     <!-- content -->
     <!-- table -->
     <!-- 3 columns -->
@@ -18,17 +32,47 @@
     <div>
       <div>9 am</div>
       <textarea id="hour-9"></textarea>
-      <button class="js-save" data-key="hour-9">save</button>
+      <button class="js-save" data-key="hour-9"><i class="fas fa-save"></i></button>
     </div>
     <div>
       <div>10 am</div>
       <textarea id="hour-10"></textarea>
-      <button class="js-save" data-key="hour-10">save</button>
+      <button class="js-save" data-key="hour-10"><i class="fas fa-save"></i></button>
     </div>
     <div>
       <div>11 am</div>
       <textarea id="hour-11"></textarea>
-      <button class="js-save" data-key="hour-11">save</button>
+      <button class="js-save" data-key="hour-11"><i class="fas fa-save"></i></button>
+    </div>
+    <div>
+      <div>12 pm</div>
+      <textarea id="hour-12"></textarea>
+      <button class="js-save" data-key="hour-12"><i class="fas fa-save"></i></button>
+    </div>
+    <div>
+      <div>1 pm</div>
+      <textarea id="hour-1pm"></textarea>
+      <button class="js-save" data-key="hour-1pm"><i class="fas fa-save"></i>/button>
+    </div>
+    <div>
+      <div>2 pm</div>
+      <textarea id="hour-2pm"></textarea>
+      <button class="js-save" data-key="hour-2pm"><i class="fas fa-save"></i></button>
+    </div>
+    <div>
+      <div>3 pm</div>
+      <textarea id="hour-3pm"></textarea>
+      <button class="js-save" data-key="hour-3pm"><i class="fas fa-save"></i></button>
+    </div>
+    <div>
+      <div>4 pm</div>
+      <textarea id="hour-4pm"></textarea>
+      <button class="js-save" data-key="hour-4pm"><i class="fas fa-save"></i></button>
+    </div>
+    <div>
+      <div>5 pm</div>
+      <textarea id="hour-5pm"></textarea>
+      <button class="js-save" data-key="hour-5pm"><i class="fas fa-save"></i></button>
     </div>
     <script src="./main.js"></script>
   </body>
